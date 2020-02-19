@@ -28,21 +28,21 @@ public class Program
 		return list.ToArray();
 	}
 
-
+// ДОБАВЬТЕ НОВЫЕ МЕТОДЫ, ЕСЛИ НЕОБХОДИМО
 	public static bool IsRepeated(int[] source, int item)
-    {
+	{
 		int count = 0;
 		for (int i=0;i<source.Length;i++)
-        {
+		{
 			if (source[i] == item)
-            {
+			{
 				count++;
-            }
-        }
+			}
+		}
 
 		return count > 1;
-    }
-	// ДОБАВЬТЕ НОВЫЕ МЕТОДЫ, ЕСЛИ НЕОБХОДИМО
+	}
+	
 
 	// ----- ЗАПРЕЩЕНО ИЗМЕНЯТЬ КОД МЕТОДОВ, КОТОРЫЕ НАХОДЯТСЯ НИЖЕ -----
 
